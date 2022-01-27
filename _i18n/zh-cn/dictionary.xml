@@ -7270,7 +7270,6 @@
   <block id="0d06100a9c9a8a7758a0d58988e99d2f" category="paragraph">提供有关本产品中使用的第三方版权和许可证的信息。您的产品不一定使用下面所述的所有软件组件。</block>
   <block id="64c6ddc210e10224f0d332d29e9010bc" category="inline-link">SnapCenter 4.5 注意事项</block>
   <block id="3cf6934ea14c435e103764252b785bcc" category="paragraph"><block ref="3cf6934ea14c435e103764252b785bcc" category="inline-link-rx"></block></block>
-  <block id="12a63ea7ca173a3e542ef374cc6f74b8" category="sidebar">SnapCenter 软件文档</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="4b09ab22f471832d6728b6e5b9a09aa8" category="sidebar">了解 SnapCenter</block>
   <block id="f13fe3401f6969cdc9233f418f92df1f" category="sidebar">有关保护 SQL Server 数据库的快速参考</block>
@@ -7364,4 +7363,5 @@
   <block id="2f86f502c1f6a96ff9ea3a6cde96db44" category="sidebar">使用 REST API 实现自动化</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="c16c43065a548034a76faadb18015c27" category="sidebar">SnapCenter 基于角色的访问控制（ RBAC ）</block>
+  <block id="3d560ec88523f55162d8aaab5dfd360a" category="sidebar">SnapCenter 软件 4.5 文档</block>
 </blocks>
