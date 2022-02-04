@@ -6,7 +6,6 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-    langs: zh-cn,us-en,ja-jp
   versions:
   - name: SnapCenter 软件
     url: "/snapcenter-45"
@@ -14,13 +13,13 @@ settings:
   - name: SnapCenter 软件
     url: "/snapcenter"
     version-number: '4.6'
-  langs: zh-cn,us-en,ja-jp
+  langs: zh-cn,us-en,ja-jp,ko-kr
 sidebar:
   entries:
   - title: SnapCenter 软件 4.5 文档
     url: "/index.html"
   - title: 发行说明
-    url: "/reference_release_notes.html"
+    url: "/release-notes.html"
   - section: concept
   - section: install
   - section: protect-scsql
@@ -34,7 +33,7 @@ sidebar:
   - section: uninstall
   - section: sc-automation
   - title: 法律声明
-    url: "/reference_legal_notices.html"
+    url: "/legal-notices.html"
 homepage:
   tiles:
   - title: 入门
