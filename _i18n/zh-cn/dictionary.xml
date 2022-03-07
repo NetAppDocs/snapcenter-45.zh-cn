@@ -3758,7 +3758,6 @@
   <block id="cca6a85f5065269f712b6122c56bcc23" category="paragraph">输入 LUN 导出到的主机的 iSCSI 启动程序名称。只有在选择 LUN 资源类型时，此选项才可用。</block>
   <block id="888a77f5ac0748b6c8001822417df8b6" category="paragraph">协议</block>
   <block id="19ca9a39b837f0de2cd60194c3115a82" category="paragraph">输入 LUN 协议。只有在选择 LUN 资源类型时，此选项才可用。</block>
-  <block id="26b17225b626fb9238849fd60eabdf60" category="paragraph">+</block>
   <block id="4e783e8dfeae9de37071ca1aacd853de" category="paragraph">如果所选资源为 LUN ，并且您要从二级备份克隆，则会列出目标卷。一个源可以包含多个目标卷。</block>
   <block id="d21ab82b42875e082ef4574c36d6c5e4" category="admonition">在克隆之前，您必须确保 iSCSI 启动程序或 FCP 存在，并且已配置并登录到备用主机。</block>
   <block id="2516fb414e835dfca0b69565d324572e" category="list-text">在 * 脚本 * 页面上，执行以下步骤：</block>
@@ -7342,7 +7341,6 @@
   <block id="c839588253fb91ab7c3ffd7dbc89ef20" category="sidebar">SQL Server 的还原策略</block>
   <block id="2dbf352013e90b28f510baa76c1423f6" category="sidebar">快速开始安装适用于 Microsoft SQL Server 的 SnapCenter 插件</block>
   <block id="25bf2c62056fbb603e50ca9faa296f05" category="sidebar">准备安装适用于 Microsoft SQL Server 的 SnapCenter 插件</block>
-  <block id="3e3c892945f01849a83a9ba45b50046a" category="sidebar">添加主机和安装适用于 Microsoft SQL Server 的 SnapCenter 插件的前提条件</block>
   <block id="a637f97603ba27f9233ebf52eb975336" category="sidebar">安装适用于 Microsoft SQL Server 的 SnapCenter 插件</block>
   <block id="32011135d9979489b3395d0006de49b3" category="sidebar">导入 CA 证书</block>
   <block id="01f97c83c1f349ab154ea4e7fed85418" category="sidebar">还原 SQL Server 资源</block>
@@ -7364,4 +7362,5 @@
   <block id="c16c43065a548034a76faadb18015c27" category="sidebar">SnapCenter 基于角色的访问控制（ RBAC ）</block>
   <block id="3d560ec88523f55162d8aaab5dfd360a" category="sidebar">SnapCenter 软件 4.5 文档</block>
   <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="sidebar">SnapCenter 软件</block>
+  <block id="699f1c0496b9360a6686498114b0be37" category="paragraph">FAS ， AFF 和 Amazon FSX 需要此功能</block>
 </blocks>
