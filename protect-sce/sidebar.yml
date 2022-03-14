@@ -20,7 +20,7 @@ entries:
     url: "/protect-sce/task_define_a_restore_strategy_for_exchange_databases.html"
 - title: 安装适用于 Microsoft Exchange Server 的 SnapCenter 插件
   entries:
-  - title: 安装工作流
+  - title: 适用于 Microsoft Exchange Server 的 SnapCenter 插件的安装工作流
     url: "/protect-sce/concept_install_snapcenter_plug_in_for_microsoft_exchange_server.html"
   - title: 添加主机和安装适用于 Microsoft Exchange Server 的 SnapCenter 插件的前提条件
     url: "/protect-sce/reference_prerequisites_to_add_hosts_and_install_snapcenter_plug_in_for_microsoft_exchange_server.html"

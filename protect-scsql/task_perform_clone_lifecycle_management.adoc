@@ -92,7 +92,7 @@ NOTE: 对于虚拟环境（ VMDB/RDM ），请确保挂载点是专用磁盘。
 NOTE: 对于电子邮件通知，您必须已使用 GUI 或 PowerShell 命令 set-SmtpServer 指定 SMTP 服务器详细信息。
 
 +
-对于 EMS ，您可以参考 https://docs.netapp.com/us-en/snapcenter/admin/concept_manage_ems_data_collection["管理 EMS 数据收集"]
+对于 EMS ，请参见 https://docs.netapp.com/us-en/snapcenter-45/admin/concept_manage_ems_data_collection.html["管理 EMS 数据收集"]
 
 . 查看摘要，然后单击 * 完成 * 。
 
