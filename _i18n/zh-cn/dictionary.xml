@@ -4601,7 +4601,6 @@
   <block id="3c68b24e5b4018140925233153bb6538" category="admonition">如果验证服务器没有存储连接，则验证操作将失败，并显示错误： Failed to mount disk.</block>
   <block id="0f0ea16fe5c3ccaa1f1c239674409d15" category="list-text">选择 * 备份后验证 * 以验证您的备份。</block>
   <block id="3bbda889c732b2c1d0be2a3446bf0fc3" category="paragraph">此时将创建一个隐式资源组。您可以从 * 用户访问 * 页面中选择相应的用户或组来查看此信息。隐式资源组类型为 "`Resource` " 。</block>
-  <block id="6b82c658b31dd0db1cb85c0f9d0dd56c" category="paragraph"><block ref="6b82c658b31dd0db1cb85c0f9d0dd56c" category="inline-link-macro-rx"></block></block>
   <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">由于 tcp_timeout 存在延迟，备份操作失败并显示 MySQL 连接错误</block>
   <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">备份失败，并显示 Windows 计划程序错误</block>
@@ -7361,4 +7360,5 @@
   <block id="15e336a500bbc8b78c88e27a721b8803" category="doc">适用于 Microsoft Windows 的 SnapCenter 插件的安装工作流</block>
   <block id="b14fc44cfe032bef907580bf7aae09ed" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block></block>
   <block id="3508e18c47b24e9df15eebd5671549ba" category="paragraph">此外，您还可以使用 _Uninstall-SmHostPackage_ cmdlet 和所需参数从多个主机卸载插件。有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block>。</block>
+  <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
 </blocks>

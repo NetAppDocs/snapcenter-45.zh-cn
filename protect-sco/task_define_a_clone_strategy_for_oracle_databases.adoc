@@ -5,6 +5,7 @@ keywords: backup types, cloning type, clone name, limitations
 summary: 在克隆数据库之前定义策略可确保克隆操作成功。 
 ---
 = 为 Oracle 数据库定义克隆策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

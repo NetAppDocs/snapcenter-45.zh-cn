@@ -5,6 +5,7 @@ keywords: ports, port requirements
 summary: 在安装 SnapCenter 服务器和应用程序或数据库插件之前，应确保满足连接和端口要求。 
 ---
 = 连接和端口要求
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

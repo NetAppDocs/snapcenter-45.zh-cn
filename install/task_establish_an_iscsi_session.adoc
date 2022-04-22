@@ -5,6 +5,7 @@ keywords: iSCSI session
 summary: 如果您使用 iSCSI 连接到 LUN ，则必须在创建 LUN 之前建立 iSCSI 会话以启用通信。 
 ---
 = 建立 iSCSI 会话
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

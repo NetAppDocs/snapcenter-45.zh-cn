@@ -5,6 +5,7 @@ keywords: iSCSI session
 summary: 有时，您可能需要将 iSCSI 会话与具有多个会话的目标断开连接。 
 ---
 = 断开 iSCSI 会话的连接
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

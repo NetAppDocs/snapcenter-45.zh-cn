@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 所需的最小 ONTAP 权限因用于数据保护的 SnapCenter 插件而异。
