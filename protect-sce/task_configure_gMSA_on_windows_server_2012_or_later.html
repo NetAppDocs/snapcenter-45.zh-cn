@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>克隆 Oracle 数据库的要求</title>
+  <title>在 Windows Server 2012 或更高版本上配置 GMSA</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="克隆 Oracle 数据库的要求" />
+  <meta property="og:title" content="在 Windows Server 2012 或更高版本上配置 GMSA" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/zh-cn/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html" />
-	<meta property="og:description" content="克隆 Oracle 数据库之前，您应确保满足前提条件。" />
+	<meta property="og:url" content="https://docs.netapp.com/zh-cn/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" />
+	<meta property="og:description" content="通过 Windows Server 2012 或更高版本，您可以创建组托管服务帐户（ GMSA\ ），以便从受管域帐户自动管理服务帐户密码。" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/snapcenter-45/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="克隆 Oracle 数据库之前，您应确保满足前提条件。">
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="通过 Windows Server 2012 或更高版本，您可以创建组托管服务帐户（ GMSA\ ），以便从受管域帐户自动管理服务帐户密码。">
   <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/zh-cn/snapcenter-45/images/favicon.ico" type="image/x-icon">
 
@@ -179,21 +179,21 @@
 
   <ul class="custom-dropdown-menu"><li>
       
-      <a href="https://docs.netapp.com/zh-cn/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html" target="_self">
+      <a href="https://docs.netapp.com/zh-cn/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" target="_self">
         <span translate="no" class="notranslate"><span>SnapCenter 软件</span><span class="version"> 4.5</span></span>
       </a>
                      
     </li>
     <li>
       
-      <a href="https://docs.netapp.com/zh-cn/snapcenter/protect-sco/reference_requirements_for_cloning_an_oracle_database.html" target="_self">
+      <a href="https://docs.netapp.com/zh-cn/snapcenter/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" target="_self">
         <span translate="no" class="notranslate"><span>SnapCenter 软件</span><span class="version"> 4.6</span></span>
       </a>
                      
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/issues/new?body=Page%3A%20[克隆 Oracle 数据库的要求](https://docs.netapp.com/zh-cn/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/snapcenter-45/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/blob/main/protect-sco/reference_requirements_for_cloning_an_oracle_database.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/snapcenter-45/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/snapcenter-45/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/issues/new?body=Page%3A%20[在 Windows Server 2012 或更高版本上配置 GMSA](https://docs.netapp.com/zh-cn/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/snapcenter-45/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-45/blob/main/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/snapcenter-45/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/snapcenter-45/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -316,13 +316,13 @@
           <ul class="n-menu__list">
             <li class="n-menu__list-column">
               <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                  <a href="https://docs.netapp.com/us-en/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                  <a href="https://docs.netapp.com/ja-jp/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                  <a href="https://docs.netapp.com/ko-kr/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                  <a href="https://docs.netapp.com/zh-cn/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -1882,15 +1882,6 @@
 
 
 
-    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
-  <a target="_blank" href="/zh-cn/snapcenter-45/pdfs/pages/protect-sco/reference_requirements_for_cloning_an_oracle_database.pdf" >
-    <img src="/zh-cn/snapcenter-45/images/pdf.png" width="16" height="16"/>
-    PDF of this page
-  </a>
-</li>
-
-</ul>
-  
 
 
 
@@ -2267,6 +2258,15 @@
 
 
 
+    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
+  <a target="_blank" href="/zh-cn/snapcenter-45/pdfs/pages/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.pdf" >
+    <img src="/zh-cn/snapcenter-45/images/pdf.png" width="16" height="16"/>
+    PDF of this page
+  </a>
+</li>
+
+</ul>
+  
 
 
 
@@ -3670,7 +3670,7 @@
         克隆工作流
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sco/task_define_a_clone_strategy_for_oracle_databases.html">
         为 Oracle 数据库定义克隆策略
-      </a></li><li class="  active "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sco/reference_requirements_for_cloning_an_oracle_database.html">
         克隆 Oracle 数据库的要求
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sco/task_clone_an_oracle_database_backup.html">
         克隆 Oracle 数据库
@@ -3826,7 +3826,7 @@
         添加主机和安装适用于 Microsoft Exchange Server 的 SnapCenter 插件的前提条件
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sce/task_set_up_credentials_for_the_snapcenter_plug_in_for_windows_sce.html">
         设置适用于 Windows 的 SnapCenter 插件的凭据
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html">
+      </a></li><li class="  active "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sce/task_configure_gMSA_on_windows_server_2012_or_later.html">
         在 Windows Server 2012 或更高版本上配置 GMSA
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/snapcenter-45/protect-sce/task_add_hosts_and_install_plug_in_for_exchange.html">
         添加主机并安装适用于 Exchange 的插件
@@ -4194,151 +4194,128 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">克隆 Oracle 数据库的要求</h1>
+  <h1 class="n-doc__component-detail-heading">在 Windows Server 2012 或更高版本上配置 GMSA</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-22 07:10:07 +0000">04/22/2022</time>
+    <time datetime="2022-04-26 11:20:01 +0000">04/26/2022</time>
     
   
 
 
 </p>
 
-<div class="paragraph lead">
-<p>克隆 Oracle 数据库之前，您应确保满足前提条件。</p>
+<div class="paragraph">
+<p>通过 Windows Server 2012 或更高版本，您可以创建组托管服务帐户（ GMSA ），以便从受管域帐户自动管理服务帐户密码。</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>您应已使用 SnapCenter 创建数据库备份。</p>
+<p>您需要的内容 *</p>
+</li>
+<li>
+<p>您应具有 Windows Server 2012 或更高版本的域控制器。</p>
+</li>
+<li>
+<p>您应该拥有一个 Windows Server 2012 或更高版本的主机，该主机是域的成员。</p>
+</li>
+<li>
+<p>步骤 *</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>创建一个 KDS 根密钥，以便为 GMSA 中的每个对象生成唯一的密码。</p>
+</li>
+<li>
+<p>对于每个域，从 Windows 域控制器运行以下命令： Add-KDSRootKey -EffectiveImmediately</p>
+</li>
+<li>
+<p>创建和配置 GMSA ：</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>创建用户组帐户。</p>
+</li>
+<li>
+<p>向组中添加计算机对象。</p>
+</li>
+<li>
+<p>使用刚刚创建的用户组创建 GMSA 。</p>
 <div class="paragraph">
-<p>要成功执行克隆操作，您应已成功创建联机数据和日志备份或脱机（挂载或关闭）备份。</p>
+<p>例如：</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre> New-ADServiceAccount -name &lt;ServiceAccountName&gt; -DNSHostName &lt;fqdn&gt; -PrincipalsAllowedToRetrieveManagedPassword &lt;group&gt; -ServicePrincipalNames &lt;SPN1,SPN2,…&gt;
+.. 运行 `Get-ADServiceAccount` 命令验证服务帐户。</pre>
+</div>
+</div>
+</li>
+</ol>
 </div>
 </li>
 <li>
-<p>如果要自定义控制文件或重做日志文件路径，则应事先配置所需的文件系统或自动存储管理（ ASM ）磁盘组。</p>
+<p>在主机上配置 GMSA ：</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>在要使用 GMSA 帐户的主机上为 Windows PowerShell 启用 Active Directory 模块。</p>
 <div class="paragraph">
-<p>默认情况下，克隆数据库的重做日志和控制文件会在 SnapCenter 为克隆数据库的数据文件配置的 ASM 磁盘组或文件系统上创建。</p>
+<p>为此，请从 PowerShell 运行以下命令：</p>
 </div>
 </li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>PS C:\&gt; Get-WindowsFeature AD-Domain-Services
+
+Display Name                           Name                Install State
+------------                           ----                -------------
+[ ] Active Directory Domain Services   AD-Domain-Services  Available
+
+
+PS C:\&gt; Install-WindowsFeature AD-DOMAIN-SERVICES
+
+Success Restart Needed Exit Code      Feature Result
+------- -------------- ---------      --------------
+True    No             Success        {Active Directory Domain Services, Active ...
+WARNING: Windows automatic updating is not enabled. To ensure that your newly-installed role or feature is
+automatically updated, turn on Windows Update.</pre>
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
 <li>
-<p>如果您使用基于 NFS 的 ASM ，则应将 _/var/opt/snapcenter/scU/cles/<strong>/</strong> 添加到 asm_diskstring 参数中定义的现有路径中。</p>
+<p>重新启动主机。</p>
 </li>
 <li>
-<p>在 asm_diskstring 参数中，如果使用的是 ASMFD ，则应配置 _afd ： * _ ；如果使用的是 ASMLIB ，则应配置 _ORCL ： * _ 。</p>
+<p>在 PowerShell 命令提示符处运行以下命令，在主机上安装 GMSA ： <code>Install-AdServiceAccount &lt;GMSA&gt;</code></p>
+</li>
+<li>
+<p>运行以下命令验证您的 GMSA 帐户： <code>Test-AdServiceAccount &lt;GMSA&gt;</code></p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>为主机上配置的 GMSA 分配管理权限。</p>
+</li>
+<li>
+<p>通过在 SnapCenter 服务器中指定已配置的 GMSA 帐户来添加 Windows 主机。</p>
 <div class="paragraph">
-<p>有关如何编辑 asm_diskstring 参数的信息，请参见 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/Disk_paths_are_not_added_to_the_asm_diskstring_database_parameter" target="_blank" rel="noopener">"如何向 asm_diskstring 添加磁盘路径"</a>。</p>
+<p>SnapCenter 服务器将在主机上安装选定插件，并且在安装此插件期间，指定的 GMSA 将用作服务登录帐户。</p>
 </div>
 </li>
-<li>
-<p>如果要在备用主机上创建克隆，则备用主机应满足以下要求：</p>
-<div class="ulist">
-<ul>
-<li>
-<p>适用于 Oracle 数据库的 SnapCenter 插件应安装在备用主机上。</p>
-</li>
-<li>
-<p>克隆主机应能够从主存储或二级存储中发现 LUN 。</p>
-<div class="ulist">
-<ul>
-<li>
-<p>如果要从主存储或二级（存储或镜像）存储克隆到备用主机，请确保在二级存储和备用主机之间建立 iSCSI 会话，或者为 FC 正确分区 iSCSI 会话。</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936" target="_blank" rel="noopener">"《 Linux Host Utilities 安装和设置指南》"</a></p>
-</li>
-<li>
-<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMP1119223" target="_blank" rel="noopener">"《 AIX Host Utilities 安装和设置指南》"</a></p>
-</li>
-</ul>
+</ol>
 </div>
 </li>
-<li>
-<p>如果要从存储或镜像存储克隆到同一主机，请确保在存储或镜像存储与主机之间建立 iSCSI 会话，或者为 FC 正确分区 iSCSI 会话。</p>
-</li>
-<li>
-<p>如果要在虚拟化环境中克隆，请确保在主存储或二级存储与托管备用主机的 ESX 服务器之间建立 iSCSI 会话，或者为 FC 正确分区 iSCSI 会话。</p>
-</li>
-</ul>
+</ol>
 </div>
-</li>
-<li>
-<p>如果源数据库是 ASM 数据库：</p>
-<div class="ulist">
-<ul>
-<li>
-<p>ASM 实例应在要执行克隆的主机上启动并运行。</p>
-</li>
-<li>
-<p>如果要将克隆数据库的归档日志文件放置在专用 ASM 磁盘组中，应在克隆操作之前配置 ASM 磁盘组。</p>
-</li>
-<li>
-<p>可以配置数据磁盘组的名称，但请确保要执行克隆的主机上的任何其他 ASM 磁盘组不使用该名称。</p>
-<div class="paragraph">
-<p>驻留在 ASM 磁盘组上的数据文件会在 SnapCenter 克隆工作流中进行配置。</p>
-</div>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>数据 LUN 和日志 LUN 的保护类型（例如镜像，存储或镜像存储）应相同，以便在使用日志备份克隆到备用主机期间发现二级定位器。</p>
-</li>
-<li>
-<p>您应在源数据库参数文件中将 exclude_seed_cdb_view 的值设置为 false ，以检索与种子 PDB 相关的信息，以便克隆 12_c_ 数据库的备份。</p>
-<div class="paragraph">
-<p>种子 PDB 是系统提供的模板， CDB 可以使用该模板创建 PDB 。种子 PDB 名为 PDB $seed 。有关 PDB $seed 的信息，请参见 Oracle 文档 ID 1940806.1 。</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/snapcenter-45/images/note.svg" alt="注">
-</td>
-<td class="content">
-您应在备份 12_c_ 数据库之前设置此值。
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li>
-<p>SnapCenter 支持备份由 autofs 子系统管理的文件系统。如果要克隆数据库，请确保数据挂载点不在 autofs 挂载点的根目录下，因为插件主机的 root 用户无权在 autofs 挂载点的根目录下创建目录。</p>
-<div class="paragraph">
-<p>如果控制和重做日志文件位于数据挂载点下，则应修改控制文件路径，然后相应地重做日志文件路径。</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/snapcenter-45/images/note.svg" alt="注">
-</td>
-<td class="content">
-您可以手动将新克隆的挂载点注册到 autofs 子系统。新克隆的挂载点不会自动注册。
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li>
-<p>如果您有一个 TDE （自动登录）并希望在同一主机或备用主机上克隆数据库，则应将 /etc/oracle/Wale/$ORACLE_SID_ 下的 Wallet （密钥文件）从源数据库复制到克隆的数据库。</p>
-</li>
-<li>
-<p>您应在 /etc/lvm/lvm.conf 中设置 use_lvmetad = 0 的值，并停止 lvm2-lvmetad 服务，以便在 Oracle Linux 7 或更高版本或 Red Hat Enterprise Linux （ RHEL ） 7 或更高版本的存储区域网络（ SAN ）环境中成功执行克隆。</p>
-</li>
-<li>
-<p>如果您使用的是 Oracle 数据库 11.2.0.3 或更高版本，并且使用 NID 脚本更改了辅助实例的数据库 ID ，则应安装 13366202 Oracle 修补程序。</p>
-</li>
-<li>
-<p>您应确保托管卷的聚合应位于 Storage Virtual Machine （ SVM ）的已分配聚合列表中。</p>
 </li>
 </ul>
 </div>
