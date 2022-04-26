@@ -848,7 +848,6 @@
   <block id="adce1db3350f0ed81a76733f84d8d683" category="list-text">您应确保消息队列服务正在运行。</block>
   <block id="495a029c5d7c250f801f4d0c65513c50" category="list-text">如果您使用的是组托管服务帐户（ GMSA ），则应使用管理权限配置 GMSA 。</block>
   <block id="d1556c9da336be030540adcf58889977" category="inline-link-macro">在 Windows Server 2012 或更高版本上为自定义应用程序配置组托管服务帐户</block>
-  <block id="7760830a49bc2ffc8c6db5a38cec828f" category="paragraph"><block ref="7760830a49bc2ffc8c6db5a38cec828f" category="inline-link-macro-rx"></block></block>
   <block id="302ca62990c674aa6f608e6444c00482" category="paragraph">您不能将 SnapCenter 服务器作为插件主机添加到另一个 SnapCenter 服务器。</block>
   <block id="bceac0a8fa4156f8efbbf85fb76e4953" category="paragraph">如果在集群（ WSFC ）上安装插件，则这些插件将安装在集群的所有节点上。</block>
   <block id="92167459928f7cb7035350c0b52437da" category="list-text">验证顶部是否已选中 * 受管主机 * 选项卡。</block>
@@ -1594,7 +1593,6 @@
   <block id="45e52ea61331adeddb8fcba96510d245" category="list-text">您必须是分配给具有插件安装和卸载权限的角色的用户，例如 SnapCenter 管理员</block>
   <block id="f43b8555947d4751531f2048f4ceb68f" category="list-text">消息队列服务必须正在运行。</block>
   <block id="5da8a38d0d164ee119a4369bd402f7e7" category="inline-link-macro">在 Windows Server 2012 或更高版本上配置组托管服务帐户</block>
-  <block id="c3d3d7d361f2929e16e2c819af868aee" category="list-text">如果您使用的是组托管服务帐户（ GMSA ），则应使用管理权限配置 GMSA 。有关信息，请参见<block ref="de44f57898ffbf94587de066666e509e" category="inline-link-macro-rx"></block>。</block>
   <block id="fdb65cf918a8b520afc6b815f2425d07" category="paragraph">您可以为单个主机或集群添加主机并安装插件软件包。如果要在集群（ Exchange DAG ）上安装插件，则这些插件会安装在集群的所有节点上，即使某些节点在 NetApp LUN 上没有数据库也是如此。</block>
   <block id="c20a8a11a419d74017da773b8a54f9ff" category="paragraph">适用于 Exchange 的插件取决于适用于 Windows 的 SnapCenter 插件软件包，并且版本必须相同。在安装适用于 Exchange 的插件期间，默认情况下会选择适用于 Windows 的 SnapCenter 插件软件包，该软件包会随 VSS 硬件提供程序一起安装。</block>
   <block id="59f72658a4a9eeae3fc1d176e55f407a" category="paragraph">如果已安装 SnapManager for Microsoft Exchange Server 和 SnapDrive for Windows ， 如果要在同一 Exchange Server 上安装适用于 Exchange 的插件，则必须取消注册 SnapDrive for Windows 使用的 VSS 硬件提供程序，因为它与随适用于 Exchange 的插件和适用于 Windows 的 SnapCenter 插件软件包一起安装的 VSS 硬件提供程序不兼容。</block>
@@ -4447,7 +4445,6 @@
   <block id="b8ceb1eaf0d60af03679989562024d6b" category="paragraph">创建克隆后，您不应对其进行重命名。</block>
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">备份 SQL Server 数据库，实例或可用性组</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
-  <block id="77a401672d28681f3a520de107c9ed51" category="paragraph"><block ref="77a401672d28681f3a520de107c9ed51" category="inline-link-macro-rx"></block></block>
   <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link">使用默认 tcp_timeout 值时，克隆操作可能会失败或需要较长时间才能完成</block>
   <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">故障转移集群实例数据库克隆失败</block>
@@ -4659,7 +4656,6 @@
   <block id="e8d616df7d87b5ecbfca2c2859a9c91e" category="list-text">指定执行还原作业后要运行的可选脚本。</block>
   <block id="c00abdc969617f536cb93b03d1479c4d" category="list-text">使用 * 监控 * &gt; * 作业 * 页面监控还原过程。</block>
   <block id="6924edabeae66398839af50da876447a" category="inline-link-macro">使用 PowerShell cmdlet 还原和恢复资源</block>
-  <block id="455f3e406c536ec723cdf3bf3192c0e5" category="paragraph"><block ref="455f3e406c536ec723cdf3bf3192c0e5" category="inline-link-macro-rx"></block></block>
   <block id="86cc84259391356d6bc58883c4b14046" category="inline-link-macro">从二级存储还原 SQL Server 数据库</block>
   <block id="69bb12bd720ba41593c0fadfa768b82e" category="paragraph"><block ref="69bb12bd720ba41593c0fadfa768b82e" category="inline-link-macro-rx"></block></block>
   <block id="9660edb91fac8702aaa8095506c95490" category="summary">在创建备份作业之前定义备份策略有助于确保您拥有成功还原或克隆数据库所需的备份。您的服务级别协议（ SLA ），恢复时间目标（ RTO ）和恢复点目标（ RPO\ ）在很大程度上决定了您的备份策略。</block>
@@ -4976,7 +4972,6 @@
   <block id="afaa5b2bc1434ec7ffc7373a3d37ff03" category="list-text">在 Windows 主机上安装插件时，如果指定的凭据不是内置的，则应在主机上禁用 UAC 。</block>
   <block id="b5eb0b5304f9fc2eda1c4758804a309a" category="list-text">您应确保消息队列服务处于运行状态。</block>
   <block id="005e0b40f0357593974211c0506e1021" category="inline-link-macro">在 Windows Server 2012 或更高版本上为 SQL 配置组托管服务帐户</block>
-  <block id="cbb9319067916a535f7b003c1a70b83f" category="paragraph"><block ref="cbb9319067916a535f7b003c1a70b83f" category="inline-link-macro-rx"></block></block>
   <block id="e0a6a8624a69b68bc0839f233664cd97" category="paragraph">您可以为单个主机或集群添加主机并安装插件软件包。如果要在集群或 Windows Server 故障转移集群（ WSFC ）上安装插件，则这些插件将安装在集群的所有节点上。</block>
   <block id="e11f6d0c6669ff79495717e9f38e9fc3" category="paragraph">有关管理主机的信息，请参见 <block ref="801cfa467bb6d1aeeb6375d305370903" category="inline-link-macro-rx"></block>。</block>
   <block id="1c92ab8626c20e01298d27cdffde2996" category="list-text">在 * 主机 * 页面上，执行以下操作：</block>
@@ -6438,7 +6433,6 @@
   <block id="6999d09aed9c7b160e001c5345554e29" category="doc">添加主机并安装适用于 Microsoft Windows 的 SnapCenter 插件</block>
   <block id="7cfe72b14626cbdfa82c7d1d900586aa" category="list-text">应将 SnapCenter 用户添加到 Windows 服务器的 "`以服务身份登录` " 角色中。</block>
   <block id="634521473d8c5fdebcafa0c217efa6b5" category="inline-link-macro">在 Windows Server 2012 或更高版本上为 Windows 文件系统配置组托管服务帐户</block>
-  <block id="8d338c95545ac01f94f754b10be02dec" category="paragraph"><block ref="8d338c95545ac01f94f754b10be02dec" category="inline-link-macro-rx"></block></block>
   <block id="cce76c1c114e69fd9b5ed7b130742034" category="list-text">Windows 插件</block>
   <block id="a561a8020c6cf9c0bfcf2c0057ac1550" category="list-text">Microsoft Exchange Server</block>
   <block id="78898e52fcbdc5337204a384f2456d4f" category="list-text">Microsoft SQL Server</block>
@@ -7361,4 +7355,11 @@
   <block id="b14fc44cfe032bef907580bf7aae09ed" category="paragraph">有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block></block>
   <block id="3508e18c47b24e9df15eebd5671549ba" category="paragraph">此外，您还可以使用 _Uninstall-SmHostPackage_ cmdlet 和所需参数从多个主机卸载插件。有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考<block ref="aabd79bbab071761889403beced1e0e9" category="inline-link-rx"></block>。</block>
   <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
+  <block id="30e7f68451a94c7e462c35be6a21cef9" category="paragraph">您可以使用 SnapCenter * 添加主机 * 页面添加 Windows 主机。适用于 Exchange 的插件会自动安装在指定主机上。这是安装插件的建议方法。您可以为单个主机或集群添加主机并安装插件。</block>
+  <block id="aafa52eb5dcc479a1cd4f3a47f9aaab1" category="list-text">如果您使用的是组托管服务帐户（ GMSA ），则应使用管理权限配置 GMSA 。有关信息，请参见<block ref="ac4ee76cebada45b93566fc9fb30e5f6" category="inline-link-macro-rx"></block>。</block>
+  <block id="d2f75a69047fa1d93423f0ebca0e578e" category="paragraph"><block ref="d2f75a69047fa1d93423f0ebca0e578e" category="inline-link-macro-rx"></block></block>
+  <block id="b7ee450a891722e2248bf6edbef84f21" category="paragraph"><block ref="b7ee450a891722e2248bf6edbef84f21" category="inline-link-macro-rx"></block></block>
+  <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
+  <block id="7a679a1d48731136f64e6e6d38429002" category="paragraph"><block ref="7a679a1d48731136f64e6e6d38429002" category="inline-link-macro-rx"></block></block>
+  <block id="8eea6d6db8756ac6f485ef882956153e" category="paragraph"><block ref="8eea6d6db8756ac6f485ef882956153e" category="inline-link-macro-rx"></block></block>
 </blocks>
