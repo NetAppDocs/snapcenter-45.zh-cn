@@ -114,7 +114,6 @@
   <block id="bd5309e59a4bca83b633c90ae5daf38b" category="paragraph">您可以使用采用 ONTAP SnapMirror 技术的 SnapCenter 插件在另一个卷上为备份集创建镜像副本，并使用 ONTAP SnapVault 技术执行磁盘到磁盘备份复制，以满足标准和其他监管相关要求。在执行这些任务之前，您必须在源卷和目标卷之间配置数据保护关系并初始化此关系。</block>
   <block id="9b646613b64beb84f0dd23de8375c5b4" category="admonition">如果您是从 NetApp SnapManager 产品访问 SnapCenter 的，并且对您配置的数据保护关系感到满意，则可以跳过本节。</block>
   <block id="6ff146878a4540cb5c56e41c5dc907df" category="paragraph">数据保护关系会将主存储（源卷）上的数据复制到二级存储（目标卷）。初始化此关系时， ONTAP 会将源卷上引用的数据块传输到目标卷。</block>
-  <block id="dd91d992ea162a54fe948382dc6122fb" category="admonition">SnapCenter 不支持 SnapMirror 和 SnapVault 卷之间的级联关系（ * 主卷 * &gt; * 镜像 * &gt; * 存储 * ）。仅使用扇出关系（ * 主 * &gt; * 镜像 * ， * 主 * &gt; * 存储 * ）。</block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">ONTAP 文档</block>
   <block id="85f4322e48905f6a2043ad68d659cc9b" category="paragraph">SnapCenter 支持管理版本灵活的 SnapMirror 关系。有关版本灵活的 SnapMirror 关系以及如何设置这些关系的详细信息，请参见<block ref="8f4b16b80a7cbb7edba7f6aa6efedcf1" category="inline-link-rx"></block>。</block>
   <block id="fdace28a15a0c32d01477d6a6f02b764" category="summary">在安装适用于 Windows 的 SnapCenter 插件软件包之前，您应熟悉一些基本的主机系统空间要求和规模估算要求。</block>
@@ -154,7 +153,6 @@
   <block id="5bfdbe319f93f982db7e2e53d844bd74" category="list-text">创建一个 KDS 根密钥，以便为 GMSA 中的每个对象生成唯一的密码。</block>
   <block id="35c239ad892c492785a568f43643a49b" category="list-text">对于每个域，从 Windows 域控制器运行以下命令： Add-KDSRootKey -EffectiveImmediately</block>
   <block id="4e2c07bd931da6c7ec41ee4923c33de0" category="list-text">创建和配置 GMSA ：</block>
-  <block id="64f0c9a3329f7826505496e99f5b6257" category="list-text">创建用户组帐户。</block>
   <block id="e9311390b1566f1587fec0689b110903" category="list-text">向组中添加计算机对象。</block>
   <block id="f22d222d43494a76b9ced73084b174f7" category="list-text">使用刚刚创建的用户组创建 GMSA 。</block>
   <block id="cabbc139b7f74771c47e3eb24d94c92b" category="paragraph">例如：</block>
@@ -3573,7 +3571,6 @@
   <block id="d92a8f6f3c2b6a9c57099c523a22f5b2" category="paragraph">主存储或二级存储上的 Snapshot 副本及其在 SAP HANA 目录中对应的条目将根据保留设置删除。在备份和资源组删除期间， SAP HANA 目录条目也会被删除。</block>
   <block id="ffaafcbad8fa7abfb6f9166b4bc76388" category="doc">取消 SAP HANA 的备份操作</block>
   <block id="8f088fc353589a53b22d09fce118b2a6" category="doc">设置适用于 SAP HANA 数据库的 SnapCenter 插件的凭据</block>
-  <block id="d1c9be42188126d7cdb36006987f8674" category="paragraph">对于 Windows ，请勿在密码中使用双引号（ " ）。</block>
   <block id="afd7453bfb7b2ee3805b612dd9889484" category="summary">您必须在还原和恢复数据库之前定义策略，以便成功执行还原和恢复操作。</block>
   <block id="f053b1c99159302e4282006cc7c9d970" category="doc">为 SAP HANA 资源定义还原和恢复策略</block>
   <block id="c6534fab43cf3777e5130a53358227ce" category="list-text">确定手动添加的 SAP HANA 资源支持的还原策略</block>
@@ -4414,7 +4411,6 @@
   <block id="142a30b21dac9ab880bf900d3257d4a8" category="paragraph">如果要部署适用于 Microsoft SQL Server 的 SnapCenter 插件，则必须在安装插件后设置 SQL 凭据。为具有 SQL Server sysadmin 权限的用户设置凭据。</block>
   <block id="8557b002056fb65c6ef25f01c341f05a" category="paragraph">SQL 身份验证方法针对 SQL Server 实例进行身份验证。这意味着必须在 SnapCenter 中发现 SQL Server 实例。因此，在添加 SQL 凭据之前，您必须添加主机，安装插件软件包并刷新资源。要执行计划或发现资源等操作，您需要进行 SQL Server 身份验证。</block>
   <block id="67b9087c700b41bfc960610e03f7b788" category="paragraph">在要安装 SnapCenter 插件的系统上指定域管理员。用户名字段的有效格式为：</block>
-  <block id="52a731706049956361af4bdd1cdbccc7" category="paragraph">请勿在密码中使用双引号（ " ）。</block>
   <block id="b69ed1001f49162c486a751163953a80" category="paragraph">选择要使用的身份验证模式。如果选择 SQL 身份验证模式，则还必须指定 SQL Server 实例和 SQL 实例所在的主机。</block>
   <block id="a61442d4f2c413e3792d7594050ba2cc" category="summary">您可以使用 Remove-SmBackup cmdlet 清理不含 Snapshot 副本的二级备份的备份计数。如果管理副本拓扑中显示的 Snapshot 副本总数与二级存储 Snapshot 副本保留设置不匹配，您可能需要使用此 cmdlet 。</block>
   <block id="11dc6d5147b38aacb94d18c088856bed" category="doc">使用 PowerShell cmdlet 清理二级备份计数</block>
@@ -7355,4 +7351,9 @@
   <block id="22d8a94cf37cc6d66c941a43b9d79fa8" category="paragraph">为主机启用CA证书验证时显示true。</block>
   <block id="f5834ae40c2c791cfe589857bdad345c" category="paragraph">您可以通过编辑spl.properties或使用SnapCenter 图形用户界面或cmdlet来启用或禁用此参数。</block>
   <block id="0fc6896a1941ab3074a525b384b1d103" category="paragraph">。<block ref="1b419d76cc3163a36d36ff494ed65b44" category="inline-link-rx"></block> 包含有关支持版本的最新信息。</block>
+  <block id="7cbf140d17e0f4c0fe27276252add63e" category="list-text">按以下格式创建用户组帐户：</block>
+  <block id="d332f88a3886e736c322b3643225a6cd" category="admonition">SnapCenter 不支持 SnapMirror 和 SnapVault 卷之间的级联关系（ * 主卷 * &gt; * 镜像 * &gt; * 存储 * ）。您应使用扇出关系。</block>
+  <block id="76532e7091335c4eb76878af878c5b79" category="paragraph">请勿在密码中使用双引号(")或反勾号(`)。不应使用小于(&lt;)和感叹号(！) 密码中的符号。例如、小于&lt;！10、小于10&lt;！、回退键`12。</block>
+  <block id="fb6661786b7d5b1cfb5df7ffe94a3009" category="paragraph">如果第三方备份计划与 SnapCenter 备份计划重叠，则不支持这些计划。您不应修改计划并重命名在Windows计划程序或SQL Server代理中创建的备份作业。</block>
+  <block id="5891deda92209d1d45144775b7d5c20d" category="admonition">您不应重命名在Windows计划程序或SQL Server代理中创建的备份作业。</block>
 </blocks>
