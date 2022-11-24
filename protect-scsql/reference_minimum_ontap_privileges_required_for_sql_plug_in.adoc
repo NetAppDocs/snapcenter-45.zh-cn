@@ -196,4 +196,6 @@ network interface show
 
 vserver
 
+MetroCluster 显示
+
 |===
