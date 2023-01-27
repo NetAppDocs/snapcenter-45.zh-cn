@@ -6570,7 +6570,6 @@
   <block id="92cc2a9a2d5824e9c2b490a8fb082801" category="paragraph">如果要在自动删除 SnapCenter 存储之前指定 Snapshot 副本的数量，请选择此选项。</block>
   <block id="0a3cfeac0775871baedb24392bc4423c" category="paragraph">删除早于的 Snapshot 副本</block>
   <block id="9fbc3fb0ee9d4d329dbc0f3053b7b871" category="paragraph">如果要指定 SnapCenter 在删除备份副本之前保留备份副本的天数，请选择此选项。</block>
-  <block id="e19ad44a5949f6c604b843ea60587e80" category="admonition">如果计划启用 SnapVault 复制，则应将保留计数设置为 2 或更高。如果将复制计数设置为 1 ，则保留操作可能会失败。这是因为在将较新的 Snapshot 副本复制到目标之前，第一个 Snapshot 副本是 SnapVault 关系的参考 Snapshot 副本。</block>
   <block id="528b991e02d6603cb6d43b5633c41bc7" category="list-text">在复制页面上，指定复制到二级存储系统：</block>
   <block id="a0d0bc8e6daaaf8b0c2bf80df11cf096" category="list-text">在 " 脚本 " 页面上，分别输入希望 SnapCenter 服务器在备份操作前后运行的预处理或后脚本的路径以及 SnapCenter 在超时前等待脚本执行的时间限制。</block>
   <block id="6c713d56e86f927e1bd66c7de2ed52c1" category="summary">如果要一次在多个主机上安装适用于 Microsoft Windows 的 SnapCenter 插件，可以使用 Install-SmHostPackage PowerShell cmdlet 来执行此操作。</block>
@@ -7358,4 +7357,5 @@
   <block id="e2bb7a9783ce9c6c02e6001911562e16" category="list-text"><block ref="2e72f8b3689961923dec66f94cdf620f" prefix="" category="inline-code"></block></block>
   <block id="14952648adc190dcb5a5245293d5f196" category="list-text"><block ref="5eae2e4676c03cd5a87d91855e383655" prefix="" category="inline-code"></block></block>
   <block id="4574736625a206c36aa88ccb73fced3e" category="list-text"><block ref="9968070f531307f6dc7d65233ad2073f" prefix="" category="inline-code"></block></block>
+  <block id="cab00f169fcfeb601710dd89ecbfedf0" category="admonition">您应将保留数量设置为2或更高。保留数量的最小值为2。</block>
 </blocks>
